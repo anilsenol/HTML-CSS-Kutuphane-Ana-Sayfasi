@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibraryofAnil</title>
+</head>
+<body>
+    <style>
+        * {
+            margin: 0px;
+        }
+        #showcase {
+            background-image:url("library.jpg");
+            height: 600px;
+            width: 100%;
+            padding: 10px;
+            background-position: center;
+            text-align: center;
+        }
+        h1 {
+            padding: 10px;
+            
+        }
+        #buttons {
+            
+            display: inline-block;
+            width: calc(100% - 130px);
+            text-align: right;
+            
+        }
+        .main-header {
+            padding: 20px;
+            background-color: #fc997c;
+            margin: 0px;
+        }
+        #button {
+            padding-left: 10px;
+            padding-right: 10px;
+            text-decoration: none;
+            color: #ffff;
+            
+        }
+        #button1 {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border: 2px solid;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #ffff;
+            background-color: #2e4c6d;
+        }
+        #button1:hover {
+            background-color: #ffff;
+            color: #2e4c6d;
+        }
+        #button:hover {
+            color: #2e4c6d;
+        }
+        #main__library {
+            color: #ffff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        #bookofthemonth {
+            background-color: #F5EBE0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #bookofthemonth h2 {
+            color: #3e4555;
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .row {
+            margin-bottom: 40px;
+        }
+
+        .col {
+            display: inline-block;
+            width: 28%;
+            padding: 16px;
+            margin: 8px;
+        }
+
+        .icon-box h3 {
+            color: #3e4555;
+            font-size: 26px;
+        }
+        
+        
+
+    </style>
+
+    <header class="main-header">
+            <a id="main__library" href="">LibraryofAnil</a>
+            <nav id="buttons">
+            <a id="button" href="/library.html">Anasayfa</a>
+            <a id="button" href="/books.html">Kitaplar</a>
+            <a id="button1" href="/register.html">Kayıt Ol</a>
+            </nav>
+    </header>
+
+    
+
+    <main>
+        <section id="showcase">
+            <h1>Welcome to LibraryofAnil</h1>
+         </section>
+         
+         <section id="bookofthemonth">
+            <div class="row">
+                <h2>Bu ayın en popüler kitabı</h2>
+                <p>Lorem, ipsum dolor.</p>
+            </div>
+
+            <div class="row">
+                <div class="icon-box col">
+                    <h3>Kitabın Yazarı</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="icon-box col">
+                    <h3>Kitabin Konusu</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum consequatur libero minima at nisi nemo!</p>
+                </div>
+                <div class="icon-box col">
+                    <h3>Kitapların Keyfini Çıkarın</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam dolor repellendus minus doloribus tenetur accusamus?</p>
+                </div>
+            </div>
+
+            <div>
+                <img id="populer-book" src="sokrates.jpeg" width="200" height="310" alt="">
+            </div>
+    </main>
+
+    
+</body>
+</html>
